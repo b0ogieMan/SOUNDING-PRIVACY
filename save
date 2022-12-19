@@ -1,0 +1,25 @@
+/*
+#[derive(Serialize)]
+struct User {
+    name: String,
+    age: u8,
+}
+
+impl User {
+    fn new(name: &str, age: u8) -> User {
+        User {
+            name: name.to_string(),
+            age,
+        }
+    }
+}
+
+#[get("/user")]
+fn user() -> Value {
+    let user_from_id = User::new("John", 20);
+
+    json!({
+        "name": user_from_id.name,
+        "age": user_from_id.age,
+    })
+}*/

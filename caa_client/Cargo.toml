@@ -1,0 +1,21 @@
+[package]
+name = "caa_client"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ciborium = "0.2.0"
+log = "0.4.17"
+read_input = "0.8.6"
+serde = { version = "1.0.149", features = ["derive"] }
+serde_json = "1.0.89"
+simple_logger = "4.0.0"
+caa_lib = { path = "../caa_lib" }
+caa_crypto = { path = "../caa_crypto" }
+sharks = "0.5.0"
+uuid = {version = "1.2.2", features = ["v4", "serde"]}
+dryoc = { version = "0.4.2", features = ["serde"] }
+rand = "0.8.5"
+

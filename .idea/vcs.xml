@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/caa_client" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/caa_crypto" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/caa_lib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/caa_server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/caa_test" vcs="Git" />
+  </component>
+</project>
